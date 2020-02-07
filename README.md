@@ -1,2 +1,5 @@
 # aws-tools
-Miscelaneous tools for usage in AWS
+
+This project contains a set of tools that are helpful in different situations when working with AWS
+
+
