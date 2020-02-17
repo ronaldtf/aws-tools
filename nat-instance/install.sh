@@ -9,8 +9,8 @@ sudo cp rc-local.service /etc/systemd/system/rc-local.service
 sudo chmod +x /etc/systemd/system/rc-local.service
 
 echo -e "\e[32mCopying configuration...\e[0m"
-sudo cp rc.local /etc/rc.local
-chmod +x /etc/rc.local
+sudo cp rc.local /opt/rc.local
+chmod +x /opt/rc.local
 
 echo -e "\e[32mEnabling and starting the service...\e[0m"
 systemctl enable rc-local
